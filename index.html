@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <!-- Font Import -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,700&family=DM+Sans:wght@500&family=Inconsolata&family=Josefin+Sans:wght@600&family=Open+Sans:wght@300&family=Poppins:wght@700&family=REM:wght@300&family=Roboto+Mono:wght@300&family=Roboto:wght@300&family=Tektur&family=Ubuntu&display=swap" rel="stylesheet">
+
+    <!-- CSS Import -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>PPT</title>
+</head>
+<body>
+    <!-- Title -->
+    <header>
+        <h1>Jogo do pedra papel e tesoura</h1>
+    </header>
+
+    <!-- Display Choose -->
+    <div class="answ_container">
+        <div class="playerShow" id="playerPlay">Você</div>
+        <div class="vs">X</div>
+        <div class="machShow" id="machinePlay">Máquina</div>
+    </div>
+
+    <!-- Game Result -->
+    <div class="result">
+        <h2 id="getResult">Resultado:</h2>
+        <div class="resultMsg" id="showResult"></div>
+    </div>
+
+    <!-- Play Options -->
+    <div class="play_container">
+        <button class="play" id="rock" onclick="">Pedra</button>
+        <button class="play" id="paper">Papel</button>
+        <button class="play" id="scissors">Tesoura</button>
+    </div>
+
+    <!-- Script Import -->
+    <script src="index.js"></script>
+</body>
+</html>
